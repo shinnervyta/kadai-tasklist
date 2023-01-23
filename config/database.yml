@@ -55,4 +55,4 @@ production:
   host: db.zztmmkjccrfyacsgrtko.supabase.co
   database: postgres
   username: postgres
-  password: <%= ENV['IbsLPFGRDPLDi5oE'] %>
+  password: <%= ENV['SUPABASE_DATABASE_PASSWORD'] %>
